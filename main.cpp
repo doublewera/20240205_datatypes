@@ -6,5 +6,6 @@ int main(int arc, char** argv) {
 	string name;
 	cout << "What's your name?\n";
 	cin >> name;
+	cout << "Hello, " << name << "!\n";
 	return 0;
 }
