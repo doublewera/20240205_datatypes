@@ -39,5 +39,12 @@ print('Разность 10 и 3 равна ', difference(b=3, a=10))
 # Передать ей параметры по порядку и в обратном порядке,
 # не меняя результата!!!
 
+def greet(name, fathername):
+    return name + fathername
+
+print(greet('Игорь', 'Иванович'))
+print('Здравствуйте', greet(name = 'Игорь', fathername = 'Иванович'))
+print('Здравствуйте', greet(fathername = 'Иванович', name = 'Игорь'))
+
 
 
